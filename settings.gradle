@@ -16,3 +16,4 @@ rootProject.name = "Lube"
 include ':app'
 include ':utils-core'
 include ':utils-ktx'
+include ':simple'
