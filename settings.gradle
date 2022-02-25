@@ -14,5 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Lube"
 include ':app'
-include ':lube-core'
-include ':lube-ktx'
+include ':utils-core'
+include ':utils-ktx'

@@ -1,4 +1,4 @@
-package per.goweii.lube
+package per.goweii.lube.utils
 
 import android.os.Looper
 

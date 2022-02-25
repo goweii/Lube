@@ -1,4 +1,4 @@
-package per.goweii.lube
+package per.goweii.lube.utils
 
 import android.annotation.SuppressLint
 import android.app.Application
@@ -19,7 +19,7 @@ object ProcessUtils {
             processName = getCurrentProcessNameByRe()
         }
         if (processName.isNullOrBlank()) {
-            processName = this.getProcessName(myPid)
+            processName = getProcessName(myPid)
         }
         processName
     }
